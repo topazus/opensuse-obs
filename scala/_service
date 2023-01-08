@@ -1,0 +1,7 @@
+<services>
+ <service name="download_url">
+   <param name="protocol">http</param>
+   <param name="host">github.com</param>
+   <param name="path">lampepfl/dotty/archive/3.2.0.tar.gz</param>
+ </service>
+</services>

@@ -1,0 +1,7 @@
+<services>
+ <service name="download_url">
+   <param name="protocol">http</param>
+   <param name="host">github.com</param>
+   <param name="path">sbt/sbt/releases/download/v1.8.0/sbt-1.8.0.tgz</param>
+ </service>
+</services>

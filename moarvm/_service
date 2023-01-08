@@ -1,0 +1,16 @@
+<services>
+ <service name="download_url">
+   <param name="protocol">http</param>
+   <!-- https://github.com/MoarVM/MoarVM/releases/download/2022.12/MoarVM-2022.12.tar.gz -->
+   <param name="host">github.com</param>
+   <param name="path">MoarVM/MoarVM/releases/download/2022.12/MoarVM-2022.12.tar.gz</param>
+ </service>
+ <!-- <service name="verify_file">
+   <param name="file">_service:download_url:krabber-1.0.tar.gz</param>
+   <param name="verifier">sha256</param>
+   <param name="checksum">7f535a96a834b31ba2201a90c4d365990785dead92be02d4cf846713be938b78</param>
+ </service> -->
+ <!--
+  <service name="generate_automake_kde" />
+ -->
+</services>
